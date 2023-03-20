@@ -30,7 +30,7 @@ function Popup({
                             {closeBtnName}
                         </Button>
                         {proceedBtnName && (
-                            <Button onClick={handleProceed} loading={loading}>{proceedBtnName}</Button>
+                            <Button onClick={handleProceed} loading={loading ? "true" : "false"}>{proceedBtnName}</Button>
                         )}
                     </div>
                 </div>
